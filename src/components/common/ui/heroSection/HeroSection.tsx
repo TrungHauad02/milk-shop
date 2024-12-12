@@ -1,10 +1,8 @@
 import { Box, Container, Typography } from "@mui/material";
 import { useTheme } from "shared/hooks/useTheme";
-import { textData } from "shared/textData/textData";
 
-export default function HeroSection() {
+export default function HeroSection({ title, description }) {
   const { themeLight } = useTheme();
-  const { title, description } = textData.home.heroSection;
 
   return (
     <Box
