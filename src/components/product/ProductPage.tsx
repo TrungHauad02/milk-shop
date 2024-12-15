@@ -132,7 +132,12 @@ export default function ProductPage() {
       <Stack sx={{ marginLeft: "10%" }}>
         <Title>Sản phẩm</Title>
       </Stack>
-      <Stack direction={"row"} justifyContent={"center"} spacing={4}>
+      <Stack
+        direction={"row"}
+        justifyContent={"center"}
+        spacing={4}
+        sx={{ marginX: "5%" }}
+      >
         <FilterProduct
           searchText={searchText}
           categories={categories}
@@ -146,7 +151,7 @@ export default function ProductPage() {
         <Stack
           direction={"column"}
           sx={{
-            minWidth: "300px",
+            width: "100%",
           }}
           spacing={2}
         >
