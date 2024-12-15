@@ -123,7 +123,7 @@ const AboutSection = () => {
           sx={{
             textAlign: "center",
             mb: 4,
-            fontWeight: "light",
+            fontWeight: "bold",
             textTransform: "capitalize",
           }}
         >
